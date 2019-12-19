@@ -84,6 +84,30 @@ ul,
 ol {
 	padding: 6px 0;
 	margin: 0;
+	
+}
+
+
+.nav li a{
+	background-color:#ee0808;
+	color: #fff;
+	text-decoration:none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav > li {
+	float: left;
+}
+
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
 }
 
 /*---------------------
@@ -118,6 +142,7 @@ Helper CSS
 .spad {
 	padding-top: 105px;
 	padding-bottom: 105px;
+
 }
 
 .text-white h1,
@@ -133,9 +158,174 @@ Helper CSS
 	color: #fff;
 }
 
+
+
+============================================*/
+/*-- formulario */
+
+
+  
+  /* ==========================================================================
+	 #BUTTON
+	 ========================================================================== */
+  .btn {
+	line-height: 40px;
+	display: inline-block;
+	padding: 0 90px;
+	cursor: pointer;
+	font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+	color: #fff;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-size: 14px;
+	font-weight: 700;
+  }
+  
+  .btn--radius {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 5px;
+  }
+  
+  .btn--green {
+	background: #ee0808;
+  }
+  
+  .btn--green:hover {
+	background: #fff;
+	color: #ee0808;
+	border: 1px solid #ee0808;
+  }
+  
+  
+  .term{
+	  font-size: 12px;
+  }
+  /* ==========================================================================
+	 #FORM
+	 ========================================================================== */
+  input {
+	outline: none;
+	margin: 0;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	width: 100%;
+	color: #000;
+	font-size: 14px;
+	font-family: inherit;
+	background-color: rgba(0, 0, 0, 0.0);
+  }
+  
+  .input-group {
+	position: relative;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #656d80;
+  }
+
+  .input-group2 {
+	position: relative;
+	margin-bottom: 10px;
+	border: 2px solid #fff;
+	padding: 10px;
+	border-radius: 8px;
+	height: 60px;
+  }
+
+  .input-group2 input {
+	position: relative;
+	margin-bottom: 50px;
+	padding: 8px 30px 0 ;
+	color: #fff !important;
+  }
+
+  .input-group2 img{
+	  margin-top: 0 !important;
+	  margin-left: 0px !important;
+	  width: 8% !important;
+	  position: absolute;
+  }
+  
+
+ 
+  
+  .input-icon {
+	position: absolute;
+	font-size: 18px;
+	color: #ccc;
+	right: 8px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	cursor: pointer;
+  }
+.signup-content {
+	padding: 50px 85px; 
+}
+
+.signup-content2 {
+	padding: 50px 149px;
+	
+}
+
+.signup-content2 button {
+	width: 100%;
+	color: #fff;
+	
+}
+
+.signup-content2 h2 {
+	font-size: 25px;
+	color: #fff;
+	
+}
+.signup-content2 a {
+	font-size: 15px;
+	color: #fff;
+}
+
+		
+	@media screen and (max-width: 768px) {
+		.container {
+			width: calc(100% - 40px);
+			max-width: 100%; } }
+	@media screen and (max-width: 480px) {
+		.signup-content {
+			padding: 50px 25px; } }
+
+
+
+				
+/*-- fin de formulario*/
+
+
+.container2  {
+    text-align: center;
+	padding-top: 35px;
+	background: rgba(61, 40, 40);
+	height: 410px;
+	width: 100%;
+	
+}
+
+
+.container2 h2 {
+	text-align: center;
+}
+
+
+
+
 /*---------------------
 Commom elements
  -----------------------*/
+
 
 /* buttons */
 .site-btn1{
@@ -304,7 +494,7 @@ Header section
 	font-size: 16px;
 	color: #ffffff;
 	padding: 44px 10px;
-	margin-left: 60px;
+	margin-left: 4px;
 }
 
 .main-menu li a:hover {
@@ -589,8 +779,17 @@ Concept section
 	text-align: center;
 	padding-top: 35px;
 	background: rgba(96, 96, 96, 0.15);
-	height: 410px;
+	height: 600px;
 	width: 588px;
+}
+
+.concept-item3 {
+	text-align: center;
+	padding-top: 35px;
+	background: url(/img/back_form1.png);
+	
+	height: 610px;
+	width: 100%;
 }
 
 .concept-item2 img {

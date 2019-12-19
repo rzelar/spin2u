@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920.4 788.9" style="enable-background:new 0 0 1920.4 788.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.6;}
+	.st1{fill:#000823;}
+	.st2{opacity:0.76;fill:#5D5F5D;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-1.5" y="-1.6" width="1922.9" height="792.9"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		
+			<image style="overflow:visible;" width="5472" height="3648" xlink:href="B44D3CFC.jpg"  transform="matrix(0.3512 0 0 0.3512 0 -378.4911)">
+		</image>
+	</g>
+</g>
+<g class="st0">
+	
+		<image style="overflow:visible;opacity:0.4;" width="8213" height="3505" xlink:href="B44D3CFC.png"  transform="matrix(0.24 0 0 0.24 -21.64 -22.72)">
+	</image>
+	<g>
+		<rect x="-1.5" y="-2.6" class="st1" width="1922.9" height="792.9"/>
+	</g>
+</g>
+<path class="st2" d="M1468,581H449c-5.5,0-10-4.5-10-10v0c0-5.5,4.5-10,10-10h1019c5.5,0,10,4.5,10,10v0
+	C1478,576.6,1473.5,581,1468,581z"/>
+</svg>
