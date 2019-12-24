@@ -226,6 +226,30 @@ Helper CSS
 	border-bottom: 1px solid #656d80;
   }
 
+  .input-input{
+	position: relative;
+	margin-bottom: 10px;
+	border: 2px solid #bdc3d3;
+	background-color: #bdc3d3;
+	padding: 10px;
+	border-radius: 8px;
+	height: 40px;
+  }
+
+  .input-input input{
+	outline: none;
+	margin: 0;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	width: 100%;
+	color: #000;
+	font-size: 14px;
+	font-family: inherit;
+	background-color:#bdc3d3;
+  }
+
   .input-group2 {
 	position: relative;
 	margin-bottom: 10px;
@@ -566,9 +590,23 @@ Hero section
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+	background: url(/img/fondo1.png);
+	background-size: 100% 100%;
+}
+
+.hs-item1 {
+	height: 724px;
+	padding-bottom: 90px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 	background: url(/img/fondo.png);
 	background-size: 100% 100%;
 }
+
 
 .hs-item h2 {
 	color: #fff;
@@ -687,18 +725,73 @@ Intro section
 	padding-top: 10px;
 }
 
+.style-bar {
+	background-color: #993007 !important;
+	height: 100px;
+}
+
 /* ----------------
 How section
  -------------------*/
+.contenido {
+	background: url(/img/fondo4.png);
+	background-size: 100% 100%;
+}
+
+ .tabla {
+	 text-align: center !important;
+	 
+ }
+ .tabla th {
+	font-size: 30px;
+ }
+
+ .tabla h5{
+	font-size: 12px;
+}
 
 .how-section {
 	background-color: #fff;
+}
+
+.color-pri {
+	background-color: #c6302e;
+	color: #fff;
+}
+
+.color-sec {
+	background-color: #d1686a;
+	color: #fff;
+}
+
+
+.color1 {
+	color: #71ab41;
+	font-size: 12px !important;
+}
+.color2{
+	color: #c6302e;
+	font-size: 12px !important;
 }
 
 .how-section .image{
 	padding-right: 0 !important;
 	padding-left: 0 !important;
 	z-index: 2;
+}
+
+.how-section .image2{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	z-index: 2;
+	margin-top: 30px;
+	
+}
+
+.how-section h2{
+	color: #fff;
+	text-align: center;
+	font-size: 23px;
 }
 
 
@@ -749,6 +842,43 @@ How section
 Concept section
  -------------------*/
 
+.asiento-box {
+	width: 40%;
+	height: auto;
+	border-radius: 20px;
+	text-align: center;
+	margin: auto;
+}
+
+.instructor {
+	width: 40%;
+	height: auto;
+	border-radius: 20px;
+	background: #ebebec;
+	text-align: center;
+	margin: auto;
+}
+
+.bar-down h5 {
+	display: inline-block;
+	margin: auto;
+	
+}
+
+.bar-down img {
+	width: 3.5%;
+}
+
+.instructor img{
+	width: 80%;
+}
+
+.instructor h4{
+	font-size: 20px;
+}
+
+
+
 .box4 img{
 	width: 100%;
 }
@@ -768,6 +898,14 @@ Concept section
 	background: rgba(96, 96, 96, 0.15);
 	height: 410px;
 	width: 100%;
+}
+
+.concept-item1 {
+	text-align: center;
+	padding-top: 35px;
+	height: 100%;
+	width: 100%;
+	
 }
 
 .concept-item img {
